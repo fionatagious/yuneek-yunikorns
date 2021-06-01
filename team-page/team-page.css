@@ -1,0 +1,103 @@
+body {
+  padding: 40px;
+}
+
+/* * {
+  border: 2px solid chartreuse;
+}
+ */
+.cute-rectangle {
+  background-color: #f9f4ea;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 30px;
+  font-family: calibri;
+  box-shadow: 45px 15px 75px grey;
+}
+
+.cute-rectangle h1 {
+  font-size: 60px;
+  color: #e9707c;
+
+}
+
+.container {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  display: grid;
+  gap: 50px;
+}
+
+.text-rules h3 {
+  font-size: 26px;
+  text-align: center;
+}
+
+.text-rules p {
+  text-align: center;
+}
+
+#description {
+  text-align: left;
+}
+
+.circle {
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+#ben-photo {
+  height: 200px;
+  position: relative;
+}
+
+#ben-baby {
+  background-image: url(https://i.ytimg.com/vi/kOH27QkTVv4/maxresdefault.jpg);
+  background-position: left -5em bottom 0em;
+  transition: opacity 1s ease;
+    position: absolute;
+  z-index: 1; 
+}
+
+#ben-adult {
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/71L56Xkg5LL._AC_UY445_.jpg);
+  position: absolute;
+  top: 0;
+}
+
+#tori {
+      background-image: url(https://media.istockphoto.com/photos/black-swan-cygnet-picture-id841080472?k=6&m=841080472&s=612x612&w=0&h=abS0CBM5tXYsfTksFH89c1IdGBHzIE15yC1udF8lLeQ=);
+  background-position: left -2em bottom;
+  background-repeat: no-repeat;
+}
+
+#fiona {
+  background-image: url(https://www.reviewjournal.com/wp-content/uploads/2019/08/12635299_web1_Dolphin-calf_082819kc_019.jpg);
+  /* background-image: url(https://i.redd.it/nbe4byibr0361.jpg); */
+  background-position: left -0.25em top 0.5em;
+}
+
+#brandon {
+  background-image: url(https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d03b2bf6-159e-4445-88f7-2f6ca36b163c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210601%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210601T192810Z&X-Amz-Expires=86400&X-Amz-Signature=659b1b10c0b6c361f52286f751c8433edb06e88a003874689740b6c79de2a882&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22);
+  background-position: left -3em top 0em;
+  transform: scaleX(-1);
+}
+
+#ben-baby:hover {
+  opacity: 0;
+}
+
+#brandon:hover {
+  background-image: url(https://i.natgeofe.com/k/edf76b61-d45f-47ef-a675-a585ae6041c4/pufferfish-closeup-cut.jpg);
+}
+
+#fiona:hover {
+
+    background-image: url(https://media.gettyimages.com/photos/baby-atlantic-bottlenose-dolphin-curacao-netherlands-antilles-picture-id146142322?s=2048x2048);
+}
+
+#tori:hover {
+  background-image: url(https://www.itl.cat/pngfile/big/204-2042664_baby-swan-baby-swan-and-mother.jpg);
+}
